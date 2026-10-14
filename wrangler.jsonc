@@ -1,0 +1,26 @@
+{
+  "name": "storyglass-site",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-12",
+  "routes": [
+    {
+      "pattern": "storyglass.studio",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.storyglass.studio",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "SECONDARY_ORIGIN": "https://dodgerblue-barracuda-406877.hostingersite.com"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "dist",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  }
+}

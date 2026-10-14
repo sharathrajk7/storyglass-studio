@@ -1,3 +1,7 @@
 .DS_Store
 *.log
 node_modules/
+
+# Cloudflare Worker build output
+.wrangler/
+dist/
