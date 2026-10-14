@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Direction A · Gold Hour</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@300..700&amp;family=Geist+Mono:wght@400;500&amp;display=swap">
+<style>
+body{margin:0;background:#0A0907}
+a{color:#E6C892}a:hover{color:#F3E2BE}
+@keyframes lfFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes lfRun{0%{transform:translateX(0)}100%{transform:translateX(560px)}}
+@keyframes lfPulse{0%,100%{opacity:.55}50%{opacity:1}}
+</style>
+</helmet>
+<div style="background: #0A0907; color: #F3EDE3; font-family: 'Geist', system-ui, -apple-system, sans-serif; overflow: hidden; position: relative">
+
+<!-- NAV -->
+<div style="max-width: 1320px; margin: 0 auto; padding: 28px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; position: relative; z-index: 5">
+<a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #F3EDE3">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 32px; letter-spacing: -0.01em; line-height: 1">Luxfable</span>
+<span style="width: 7px; height: 7px; border-radius: 50%; background: #D9B77E; box-shadow: 0 0 12px 2px rgba(217,183,126,0.8)"></span>
+</a>
+<div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap">
+<a href="#work" style="color: #CFC6B8; text-decoration: none; font-size: 15px">Work</a>
+<a href="#services" style="color: #CFC6B8; text-decoration: none; font-size: 15px">Services</a>
+<a href="#process" style="color: #CFC6B8; text-decoration: none; font-size: 15px">Process</a>
+<a href="#brief" style="color: #CFC6B8; text-decoration: none; font-size: 15px">Studio</a>
+<a href="#brief" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid rgba(217,183,126,0.55); color: #F3E2BE; text-decoration: none; font-size: 15px; box-shadow: 0 0 24px rgba(217,183,126,0.18), inset 0 0 12px rgba(217,183,126,0.08)">Start a brief</a>
+</div>
+</div>
+
+<!-- HERO -->
+<div id="top" style="position: relative">
+<div style="position: absolute; right: -10%; top: -10%; width: 70%; height: 120%; background: radial-gradient(ellipse at 55% 50%, rgba(217,183,126,0.16), rgba(10,9,7,0) 62%); pointer-events: none"></div>
+<div style="max-width: 1320px; margin: 0 auto; padding: 48px clamp(20px, 4vw, 56px) 96px; box-sizing: border-box; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(520px, 100%), 1fr)); gap: 24px; align-items: center; position: relative">
+
+<div style="display: flex; flex-direction: column; gap: 28px; position: relative; z-index: 3">
+<div style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #D9B77E">Motion stories for founders, startups &amp; brands</div>
+<h1 style="margin: 0; font-weight: 500; font-size: clamp(52px, 6.6vw, 96px); line-height: 0.98; letter-spacing: -0.045em; text-wrap: balance">
+<span style="display: block; color: #F3EDE3">Videos that make</span>
+<span style="display: block; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.015em; color: #E6C892; text-shadow: 0 0 34px rgba(217,183,126,0.5), 0 0 2px rgba(230,200,146,0.6); padding-right: 0.08em">your company</span>
+<span style="display: block; background: linear-gradient(180deg, #F3EDE3 18%, rgba(243,237,227,0.05) 96%); -webkit-background-clip: text; background-clip: text; color: transparent; padding-bottom: 0.06em">make sense.</span>
+</h1>
+<p style="margin: 0; max-width: 500px; font-size: 18px; line-height: 1.6; color: #B9B0A2; text-wrap: pretty">We turn complex products and big ideas into short, story-led videos — scripted, designed and animated for the LinkedIn feed, your launch page and your next pitch.</p>
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap">
+<a href="#brief" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 28px; border-radius: 999px; background: linear-gradient(180deg, #E8CC97, #C9A266); color: #1A140B; text-decoration: none; font-weight: 600; font-size: 16px; box-shadow: 0 0 0 1px rgba(255,236,200,0.35) inset, 0 12px 40px -8px rgba(217,183,126,0.65), 0 0 60px rgba(217,183,126,0.25)">Start a brief
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+<a href="#work" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; color: #E6DCCB; text-decoration: none; font-size: 16px">
+<span style="width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(243,237,227,0.25); display: inline-flex; align-items: center; justify-content: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></span>Watch the work</a>
+</div>
+<div style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #8F877A">Working with teams worldwide · [YOUR CITY]</div>
+</div>
+
+<!-- 3D STAGE -->
+<div style="position: relative; height: clamp(380px, 46vw, 660px); perspective: 1500px; perspective-origin: 20% 38%">
+<div style="position: absolute; left: 6%; right: -6%; bottom: 6%; height: 34%; background: radial-gradient(ellipse at 50% 50%, rgba(217,183,126,0.22), rgba(217,183,126,0) 68%); filter: blur(10px)"></div>
+<div style="position: absolute; inset: 0; transform-style: preserve-3d">
+<div style="position: absolute; left: -12%; top: 77%; width: 140%; height: 2px; background: linear-gradient(90deg, rgba(217,183,126,0), #D9B77E 25%, #E8CC97 60%, rgba(217,183,126,0)); box-shadow: 0 0 16px 1px rgba(217,183,126,0.7); transform: rotateY(-28deg) translateZ(-260px)"></div>
+<div style="position: absolute; left: -12%; top: calc(77% + 10px); width: 140%; height: 8px; background: repeating-linear-gradient(90deg, rgba(217,183,126,0.45) 0 1px, rgba(0,0,0,0) 1px 46px); transform: rotateY(-28deg) translateZ(-260px); opacity: 0.6"></div>
+<div style="position: absolute; left: 4%; top: calc(77% - 6px); width: 14px; height: 14px; transform: rotateY(-28deg) translateZ(-260px); transform-style: preserve-3d"><div style="width: 14px; height: 14px; border-radius: 50%; background: #FFE9BF; box-shadow: 0 0 22px 6px rgba(232,204,151,0.8); animation: lfRun 9s linear infinite"></div></div>
+
+<div style="position: absolute; left: 66%; top: 8%; width: 44%; transform: rotateY(-28deg) translateZ(-980px); transform-style: preserve-3d">
+<div style="animation: lfFloat 8s ease-in-out infinite; animation-delay: -3s">
+<div style="aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; border: 1px solid rgba(232,206,160,0.28); background: #000; box-shadow: 0 30px 80px -20px rgba(217,183,126,0.35), 0 0 60px rgba(217,183,126,0.14); -webkit-box-reflect: below 8px linear-gradient(rgba(0,0,0,0) 62%, rgba(0,0,0,0.22)); position: relative">
+<img src="/_blob/2b23a14b304082653c7716141d61d4ac" alt="Frame from Pro-AI or Anti-AI" style="width: 100%; height: 100%; object-fit: cover; display: block">
+</div></div></div>
+
+<div style="position: absolute; left: 47%; top: 13%; width: 50%; transform: rotateY(-28deg) translateZ(-640px); transform-style: preserve-3d">
+<div style="animation: lfFloat 7.5s ease-in-out infinite; animation-delay: -1.5s">
+<div style="aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; border: 1px solid rgba(232,206,160,0.3); background: #000; box-shadow: 0 30px 80px -20px rgba(217,183,126,0.38), 0 0 60px rgba(217,183,126,0.16); -webkit-box-reflect: below 8px linear-gradient(rgba(0,0,0,0) 62%, rgba(0,0,0,0.22))">
+<img src="/_blob/20c046e14c34ee37bbb71edd5c83e4fb" alt="Frame from AI Scientists Warn" style="width: 100%; height: 100%; object-fit: cover; display: block">
+</div></div></div>
+
+<div style="position: absolute; left: 25%; top: 20%; width: 56%; transform: rotateY(-28deg) translateZ(-320px); transform-style: preserve-3d">
+<div style="animation: lfFloat 7s ease-in-out infinite; animation-delay: -4s">
+<div style="aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; border: 1px solid rgba(232,206,160,0.34); background: #000; box-shadow: 0 30px 80px -20px rgba(217,183,126,0.42), 0 0 70px rgba(217,183,126,0.18); -webkit-box-reflect: below 8px linear-gradient(rgba(0,0,0,0) 62%, rgba(0,0,0,0.24))">
+<img src="/_blob/bf4162112e69dbe408a728b3506975ff" alt="Frame from Superintelligence" style="width: 100%; height: 100%; object-fit: cover; display: block">
+</div></div></div>
+
+<div style="position: absolute; left: 0%; top: 28%; width: 64%; transform: rotateY(-28deg) translateZ(40px); transform-style: preserve-3d">
+<div style="animation: lfFloat 6.5s ease-in-out infinite">
+<div style="aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; border: 1px solid rgba(240,214,166,0.5); background: #000; box-shadow: 0 0 0 1px rgba(0,0,0,0.6), 0 40px 100px -24px rgba(217,183,126,0.55), 0 0 90px rgba(217,183,126,0.24); -webkit-box-reflect: below 8px linear-gradient(rgba(0,0,0,0) 60%, rgba(0,0,0,0.28)); position: relative">
+<img src="/_blob/5ccf0f3d42017b139e3df8c55c247f17" alt="Frame from Jev vs Laya" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<div style="position: absolute; inset: 0; background: linear-gradient(125deg, rgba(255,255,255,0.14), rgba(255,255,255,0) 38%)"></div>
+<div style="position: absolute; left: 14px; bottom: 12px; display: flex; align-items: center; gap: 8px; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #F3E2BE"><span style="width: 6px; height: 6px; border-radius: 50%; background: #FF5A4E; box-shadow: 0 0 8px #FF5A4E; animation: lfPulse 1.6s ease-in-out infinite"></span>Now playing · Jev vs Laya</div>
+</div></div></div>
+</div>
+
+<sc-if value="{{showZones}}" hint-placeholder-val="{{ true }}">
+<div style="position: absolute; inset: -12px; border: 1px dashed rgba(217,183,126,0.45); border-radius: 18px; pointer-events: none"></div>
+<div style="position: absolute; right: 0; top: -14px; display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 999px; background: rgba(10,9,7,0.85); border: 1px solid rgba(217,183,126,0.5); font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #E6C892">3D · WebGL — live video on each screen · scroll moves the camera</div>
+</sc-if>
+</div>
+
+</div>
+</div>
+
+<!-- WORK -->
+<div id="work" style="max-width: 1320px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-direction: column; gap: 56px; border-top: 1px solid rgba(232,206,160,0.1)">
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; flex-wrap: wrap">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #D9B77E">Selected work</div>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(40px, 5.2vw, 74px); line-height: 1.02; letter-spacing: -0.04em">Hard ideas, <em style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; color: #E6C892; text-shadow: 0 0 28px rgba(217,183,126,0.45)">made obvious.</em></h2>
+</div>
+<p style="margin: 0; max-width: 380px; color: #B9B0A2; font-size: 16px; line-height: 1.6">Each one starts with a person, a number or an analogy — never a feature list.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 28px; align-items: start">
+<a href="#work" style="display: flex; flex-direction: column; gap: 20px; text-decoration: none; color: inherit">
+<div style="position: relative; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; border: 1px solid rgba(232,206,160,0.28); box-shadow: 0 40px 90px -30px rgba(217,183,126,0.45), 0 0 0 1px rgba(0,0,0,0.5)">
+<img src="/_blob/f9aa61f6656f5d649ad7a08be859988a" alt="Jev vs Laya — the 99.98% sure moment" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,9,7,0) 55%, rgba(10,9,7,0.75))"></div>
+<span style="position: absolute; left: 20px; bottom: 18px; width: 52px; height: 52px; border-radius: 50%; background: rgba(243,237,227,0.12); border: 1px solid rgba(243,237,227,0.35); display: inline-flex; align-items: center; justify-content: center; color: #F3EDE3; box-shadow: 0 0 30px rgba(217,183,126,0.35)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></span>
+<span style="position: absolute; right: 18px; top: 16px; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #F3E2BE; padding: 6px 10px; border-radius: 999px; background: rgba(10,9,7,0.6); border: 1px solid rgba(217,183,126,0.35)">Latest</span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 40px; line-height: 1; letter-spacing: -0.01em">Jev vs Laya</span>
+<span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #A79F92">Product comparison · 1:53</span>
+</div>
+<span style="color: #B9B0A2; font-size: 16px; line-height: 1.6; max-width: 560px">One shop owner, 1,000 emails, two AI tools — a side-by-side that anyone can follow to the end.</span>
+</a>
+
+<div style="display: flex; flex-direction: column; gap: 18px">
+<a href="#work" style="display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 20px; align-items: center; padding: 14px; border-radius: 16px; border: 1px solid rgba(232,206,160,0.12); background: rgba(255,240,215,0.025); text-decoration: none; color: inherit">
+<div style="aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid rgba(232,206,160,0.2)"><img src="/_blob/2186b2e130dc7afcc6f467e5df4c08c2" alt="Superintelligence — observe and govern" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 28px; line-height: 1.05">Superintelligence</span>
+<span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A79F92">Thought leadership · 1:51</span>
+<span style="color: #B9B0A2; font-size: 15px; line-height: 1.5">Gold 3D icons make AI-agent oversight feel tangible.</span>
+</div></a>
+<a href="#work" style="display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 20px; align-items: center; padding: 14px; border-radius: 16px; border: 1px solid rgba(232,206,160,0.12); background: rgba(255,240,215,0.025); text-decoration: none; color: inherit">
+<div style="aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid rgba(232,206,160,0.2)"><img src="/_blob/28be9d53ed8c262cf684f2130a207e0b" alt="AI Scientists Warn — the AGI briefing" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 28px; line-height: 1.05">AI Scientists Warn</span>
+<span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A79F92">Explainer · 1:56</span>
+<span style="color: #B9B0A2; font-size: 15px; line-height: 1.5">A briefing-room warning that lands on a clear answer.</span>
+</div></a>
+<a href="#work" style="display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 20px; align-items: center; padding: 14px; border-radius: 16px; border: 1px solid rgba(232,206,160,0.12); background: rgba(255,240,215,0.025); text-decoration: none; color: inherit">
+<div style="aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid rgba(232,206,160,0.2)"><img src="/_blob/5095ac7c27113b37946751497d27c89d" alt="Pro-AI or Anti-AI — competition between countries" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 28px; line-height: 1.05">Pro-AI or Anti-AI?</span>
+<span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A79F92">Opinion short · 0:48</span>
+<span style="color: #B9B0A2; font-size: 15px; line-height: 1.5">A loud debate turned into one practical question.</span>
+</div></a>
+<sc-if value="{{showZones}}" hint-placeholder-val="{{ true }}">
+<div style="align-self: flex-start; padding: 7px 12px; border-radius: 999px; border: 1px dashed rgba(217,183,126,0.5); font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #E6C892">3D · cards tilt on hover · click flies the screen to full view</div>
+</sc-if>
+</div>
+</div>
+</div>
+
+<!-- SERVICES -->
+<div id="services" style="max-width: 1320px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-direction: column; gap: 56px; border-top: 1px solid rgba(232,206,160,0.1)">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #D9B77E">What we make</div>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(40px, 5.2vw, 74px); line-height: 1.02; letter-spacing: -0.04em">One studio. <em style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; color: #E6C892; text-shadow: 0 0 28px rgba(217,183,126,0.45)">Every format</em> you post.</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 0; border-top: 1px solid rgba(232,206,160,0.16)">
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px 28px 36px 0; border-bottom: 1px solid rgba(232,206,160,0.16)">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 88px; line-height: 0.9; background: linear-gradient(180deg, #E6C892 10%, rgba(230,200,146,0.02) 92%); -webkit-background-clip: text; background-clip: text; color: transparent">01</span>
+<span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">Founder &amp; CEO films</span>
+<span style="color: #B9B0A2; font-size: 15px; line-height: 1.6">You on camera, with motion graphics that carry the point. Thought leadership people finish watching.</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px 28px 36px 0; border-bottom: 1px solid rgba(232,206,160,0.16)">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 88px; line-height: 0.9; background: linear-gradient(180deg, #E6C892 10%, rgba(230,200,146,0.02) 92%); -webkit-background-clip: text; background-clip: text; color: transparent">02</span>
+<span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">Product explainers</span>
+<span style="color: #B9B0A2; font-size: 15px; line-height: 1.6">Launches, feature stories and comparisons — your real screens, animated in context.</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px 28px 36px 0; border-bottom: 1px solid rgba(232,206,160,0.16)">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 88px; line-height: 0.9; background: linear-gradient(180deg, #E6C892 10%, rgba(230,200,146,0.02) 92%); -webkit-background-clip: text; background-clip: text; color: transparent">03</span>
+<span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">LinkedIn series</span>
+<span style="color: #B9B0A2; font-size: 15px; line-height: 1.6">A steady run of posts built on one story system, so every video looks unmistakably yours.</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px 28px 36px 0; border-bottom: 1px solid rgba(232,206,160,0.16)">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 88px; line-height: 0.9; background: linear-gradient(180deg, #E6C892 10%, rgba(230,200,146,0.02) 92%); -webkit-background-clip: text; background-clip: text; color: transparent">04</span>
+<span style="font-size: 22px; font-weight: 500; letter-spacing: -0.02em">3D websites</span>
+<span style="color: #B9B0A2; font-size: 15px; line-height: 1.6">Cinematic, scroll-driven sites like this one — your product as a world people explore.</span>
+</div>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 28px; flex-wrap: wrap; padding: 32px 36px; border-radius: 20px; border: 1px solid rgba(217,183,126,0.35); background: linear-gradient(100deg, rgba(217,183,126,0.10), rgba(217,183,126,0.02)); box-shadow: 0 0 60px rgba(217,183,126,0.08) inset">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
+<span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #E6C892">Content Lab</span>
+<span style="font-size: 22px; line-height: 1.45; letter-spacing: -0.01em">Not sure what to say yet? We research your market, competitors and audience — then pitch the ideas and write the scripts.</span>
+</div>
+<a href="#brief" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; border: 1px solid rgba(217,183,126,0.55); color: #F3E2BE; text-decoration: none; font-size: 15px">Ask about Content Lab</a>
+</div>
+</div>
+
+<!-- FORMATS -->
+<div style="max-width: 1320px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(480px, 100%), 1fr)); gap: 64px; align-items: center; border-top: 1px solid rgba(232,206,160,0.1)">
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #D9B77E">Built for the feed</div>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(40px, 5.2vw, 74px); line-height: 1.02; letter-spacing: -0.04em">Every video, <em style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; color: #E6C892; text-shadow: 0 0 28px rgba(217,183,126,0.45)">in every shape.</em></h2>
+<p style="margin: 0; max-width: 480px; color: #B9B0A2; font-size: 17px; line-height: 1.6">Most people watch on a phone with the sound off. Every project ships in four shapes with burned-in captions — re-laid out for each one, not just cropped.</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<sc-for list="{{formats}}" as="f" hint-placeholder-count="4">
+<sc-if value="{{f.on}}" hint-placeholder-val="{{ false }}">
+<button type="button" onClick="{{f.pick}}" style="min-height: 48px; min-width: 76px; padding: 0 18px; border-radius: 999px; border: 1px solid #E6C892; background: rgba(217,183,126,0.18); color: #FFF1D6; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 14px; cursor: pointer; box-shadow: 0 0 24px rgba(217,183,126,0.35)">{{f.label}}</button>
+</sc-if>
+<sc-if value="{{f.off}}" hint-placeholder-val="{{ true }}">
+<button type="button" onClick="{{f.pick}}" style="min-height: 48px; min-width: 76px; padding: 0 18px; border-radius: 999px; border: 1px solid rgba(243,237,227,0.2); background: rgba(0,0,0,0); color: #CFC6B8; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 14px; cursor: pointer">{{f.label}}</button>
+</sc-if>
+</sc-for>
+</div>
+<sc-if value="{{showZones}}" hint-placeholder-val="{{ true }}">
+<div style="align-self: flex-start; padding: 7px 12px; border-radius: 999px; border: 1px dashed rgba(217,183,126,0.5); font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #E6C892">3D · the phone turns in space as the video reflows</div>
+</sc-if>
+</div>
+
+<div style="display: flex; justify-content: center; position: relative">
+<div style="position: absolute; width: 420px; height: 420px; max-width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(217,183,126,0.22), rgba(217,183,126,0) 65%)"></div>
+<div style="position: relative; width: 300px; height: 620px; border-radius: 48px; padding: 10px; box-sizing: border-box; background: linear-gradient(160deg, #3A3226, #14110C 40%, #2A2419); box-shadow: 0 0 0 1px rgba(232,206,160,0.35), 0 50px 100px -30px rgba(0,0,0,0.9), 0 0 80px rgba(217,183,126,0.2); transform: perspective(1400px) rotateY(-14deg) rotateX(4deg)">
+<div style="width: 100%; height: 100%; border-radius: 38px; overflow: hidden; background: #0E0D0B; position: relative">
+
+<sc-if value="{{f916}}" hint-placeholder-val="{{ false }}">
+<div style="position: absolute; inset: 0">
+<img src="/_blob/f9aa61f6656f5d649ad7a08be859988a" alt="Vertical version of Jev vs Laya" style="width: 100%; height: 100%; object-fit: cover; object-position: 74% 50%; display: block">
+<div style="position: absolute; left: 16px; right: 16px; bottom: 96px; text-align: center; font-size: 17px; font-weight: 600; line-height: 1.3; color: #FFFFFF; text-shadow: 0 2px 12px rgba(0,0,0,0.9)">Can’t hallucinate ≠ can’t be wrong</div>
+<div style="position: absolute; left: 16px; bottom: 28px; display: flex; align-items: center; gap: 10px"><span style="width: 32px; height: 32px; border-radius: 50%; background: linear-gradient(135deg, #E6C892, #8C6B3A)"></span><span style="font-size: 13px; font-weight: 600">Your company</span></div>
+</div>
+</sc-if>
+
+<sc-if value="{{feed}}" hint-placeholder-val="{{ true }}">
+<div style="display: flex; flex-direction: column; gap: 12px; padding: 28px 14px 14px">
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, #E6C892, #8C6B3A)"></span>
+<div style="display: flex; flex-direction: column; gap: 3px"><span style="font-size: 13px; font-weight: 600">Your company</span><span style="font-size: 11px; color: #8F877A">Promoted</span></div></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><span style="height: 7px; width: 92%; border-radius: 4px; background: rgba(243,237,227,0.16)"></span><span style="height: 7px; width: 70%; border-radius: 4px; background: rgba(243,237,227,0.16)"></span></div>
+<sc-if value="{{f169}}" hint-placeholder-val="{{ false }}">
+<div style="position: relative; aspect-ratio: 16 / 9; margin: 0 -14px; overflow: hidden"><img src="/_blob/f9aa61f6656f5d649ad7a08be859988a" alt="16:9 version" style="width: 100%; height: 100%; object-fit: cover; display: block"><div style="position: absolute; left: 8px; right: 8px; bottom: 8px; text-align: center; font-size: 11px; font-weight: 600; color: #FFF; text-shadow: 0 1px 8px #000">Can’t hallucinate ≠ can’t be wrong</div></div>
+</sc-if>
+<sc-if value="{{f11}}" hint-placeholder-val="{{ false }}">
+<div style="position: relative; aspect-ratio: 1 / 1; margin: 0 -14px; overflow: hidden"><img src="/_blob/f9aa61f6656f5d649ad7a08be859988a" alt="Square version" style="width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; display: block"><div style="position: absolute; left: 10px; right: 10px; bottom: 12px; text-align: center; font-size: 13px; font-weight: 600; color: #FFF; text-shadow: 0 1px 8px #000">Can’t hallucinate ≠ can’t be wrong</div></div>
+</sc-if>
+<sc-if value="{{f45}}" hint-placeholder-val="{{ true }}">
+<div style="position: relative; aspect-ratio: 4 / 5; margin: 0 -14px; overflow: hidden"><img src="/_blob/f9aa61f6656f5d649ad7a08be859988a" alt="4:5 version" style="width: 100%; height: 100%; object-fit: cover; object-position: 72% 50%; display: block"><div style="position: absolute; left: 10px; right: 10px; bottom: 14px; text-align: center; font-size: 14px; font-weight: 600; color: #FFF; text-shadow: 0 1px 8px #000">Can’t hallucinate ≠ can’t be wrong</div></div>
+</sc-if>
+<div style="display: flex; gap: 18px; padding-top: 4px"><span style="height: 7px; width: 44px; border-radius: 4px; background: rgba(243,237,227,0.14)"></span><span style="height: 7px; width: 54px; border-radius: 4px; background: rgba(243,237,227,0.14)"></span><span style="height: 7px; width: 40px; border-radius: 4px; background: rgba(243,237,227,0.14)"></span></div>
+</div>
+</sc-if>
+
+</div></div>
+</div>
+</div>
+
+<!-- PROCESS -->
+<div id="process" style="max-width: 1320px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-direction: column; gap: 56px; border-top: 1px solid rgba(232,206,160,0.1)">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #D9B77E">How it works</div>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(40px, 5.2vw, 74px); line-height: 1.02; letter-spacing: -0.04em">From first call to <em style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; color: #E6C892; text-shadow: 0 0 28px rgba(217,183,126,0.45)">final cut.</em></h2>
+</div>
+<div style="position: relative">
+<div style="position: absolute; left: 0; right: 0; top: 7px; height: 1px; background: linear-gradient(90deg, #D9B77E, rgba(217,183,126,0.15)); box-shadow: 0 0 12px rgba(217,183,126,0.6)"></div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 28px; position: relative">
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="width: 15px; height: 15px; border-radius: 50%; background: #E6C892; box-shadow: 0 0 16px 3px rgba(217,183,126,0.7)"></span><span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; color: #A79F92">01</span><span style="font-size: 20px; font-weight: 500">Discovery call</span><span style="color: #B9B0A2; font-size: 15px; line-height: 1.55">Goals, audience and what a win looks like.</span></div>
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="width: 15px; height: 15px; border-radius: 50%; background: #0A0907; border: 1px solid #D9B77E"></span><span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; color: #A79F92">02</span><span style="font-size: 20px; font-weight: 500">Story &amp; script</span><span style="color: #B9B0A2; font-size: 15px; line-height: 1.55">The angle, the analogy, the exact words.</span></div>
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="width: 15px; height: 15px; border-radius: 50%; background: #0A0907; border: 1px solid #D9B77E"></span><span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; color: #A79F92">03</span><span style="font-size: 20px; font-weight: 500">Style frames</span><span style="color: #B9B0A2; font-size: 15px; line-height: 1.55">See the look before anything moves.</span></div>
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="width: 15px; height: 15px; border-radius: 50%; background: #0A0907; border: 1px solid #D9B77E"></span><span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; color: #A79F92">04</span><span style="font-size: 20px; font-weight: 500">Animation &amp; sound</span><span style="color: #B9B0A2; font-size: 15px; line-height: 1.55">Motion, voice, music and captions.</span></div>
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="width: 15px; height: 15px; border-radius: 50%; background: #0A0907; border: 1px solid #D9B77E"></span><span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; color: #A79F92">05</span><span style="font-size: 20px; font-weight: 500">Delivery</span><span style="color: #B9B0A2; font-size: 15px; line-height: 1.55">Every format, captioned, ready to post.</span></div>
+</div>
+</div>
+</div>
+
+<!-- BRIEF -->
+<div id="brief" style="max-width: 1320px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-direction: column; gap: 48px; border-top: 1px solid rgba(232,206,160,0.1)">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #D9B77E">Start a brief</div>
+<h2 style="margin: 0; font-weight: 500; font-size: clamp(40px, 5.2vw, 74px); line-height: 1.02; letter-spacing: -0.04em">Tell us the story <em style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; color: #E6C892; text-shadow: 0 0 28px rgba(217,183,126,0.45)">you need told.</em></h2>
+<p style="margin: 0; color: #B9B0A2; font-size: 17px; line-height: 1.6">Takes two minutes. We come back with an approach and a quote.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: stretch">
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 30px; padding: clamp(24px, 3vw, 40px); border-radius: 24px; border: 1px solid rgba(232,206,160,0.22); background: linear-gradient(180deg, rgba(255,240,215,0.05), rgba(255,240,215,0.015)); box-shadow: 0 40px 120px -40px rgba(217,183,126,0.35), inset 0 1px 0 rgba(255,240,215,0.08)">
+<div style="display: flex; gap: 8px; flex-wrap: wrap; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase">
+<span style="padding: 6px 10px; border-radius: 999px; background: rgba(217,183,126,0.18); color: #F3E2BE">1 You</span><span style="padding: 6px 10px; border-radius: 999px; background: rgba(217,183,126,0.18); color: #F3E2BE">2 Project</span><span style="padding: 6px 10px; border-radius: 999px; background: rgba(217,183,126,0.18); color: #F3E2BE">3 Content</span><span style="padding: 6px 10px; border-radius: 999px; color: #8F877A; border: 1px solid rgba(243,237,227,0.14)">4 Assets</span><span style="padding: 6px 10px; border-radius: 999px; color: #8F877A; border: 1px solid rgba(243,237,227,0.14)">5 Contact</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 15px; color: #CFC6B8">You are</span>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<sc-for list="{{who}}" as="c" hint-placeholder-count="4">
+<sc-if value="{{c.on}}" hint-placeholder-val="{{ false }}"><button type="button" onClick="{{c.pick}}" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #E6C892; background: rgba(217,183,126,0.18); color: #FFF1D6; font-family: inherit; font-size: 15px; cursor: pointer; box-shadow: 0 0 20px rgba(217,183,126,0.3)">{{c.label}}</button></sc-if>
+<sc-if value="{{c.off}}" hint-placeholder-val="{{ true }}"><button type="button" onClick="{{c.pick}}" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid rgba(243,237,227,0.2); background: rgba(0,0,0,0); color: #CFC6B8; font-family: inherit; font-size: 15px; cursor: pointer">{{c.label}}</button></sc-if>
+</sc-for>
+</div></div>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 15px; color: #CFC6B8">You need</span>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<sc-for list="{{need}}" as="c" hint-placeholder-count="5">
+<sc-if value="{{c.on}}" hint-placeholder-val="{{ false }}"><button type="button" onClick="{{c.pick}}" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #E6C892; background: rgba(217,183,126,0.18); color: #FFF1D6; font-family: inherit; font-size: 15px; cursor: pointer; box-shadow: 0 0 20px rgba(217,183,126,0.3)">{{c.label}}</button></sc-if>
+<sc-if value="{{c.off}}" hint-placeholder-val="{{ true }}"><button type="button" onClick="{{c.pick}}" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid rgba(243,237,227,0.2); background: rgba(0,0,0,0); color: #CFC6B8; font-family: inherit; font-size: 15px; cursor: pointer">{{c.label}}</button></sc-if>
+</sc-for>
+</div></div>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 15px; color: #CFC6B8">Your content</span>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<sc-for list="{{content}}" as="c" hint-placeholder-count="3">
+<sc-if value="{{c.on}}" hint-placeholder-val="{{ false }}"><button type="button" onClick="{{c.pick}}" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #E6C892; background: rgba(217,183,126,0.18); color: #FFF1D6; font-family: inherit; font-size: 15px; cursor: pointer; box-shadow: 0 0 20px rgba(217,183,126,0.3)">{{c.label}}</button></sc-if>
+<sc-if value="{{c.off}}" hint-placeholder-val="{{ true }}"><button type="button" onClick="{{c.pick}}" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid rgba(243,237,227,0.2); background: rgba(0,0,0,0); color: #CFC6B8; font-family: inherit; font-size: 15px; cursor: pointer">{{c.label}}</button></sc-if>
+</sc-for>
+</div></div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 8px"><label for="a-name" style="font-size: 14px; color: #CFC6B8">Your name</label><input id="a-name" type="text" placeholder="Jane Founder" style="min-height: 48px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(243,237,227,0.18); background: rgba(10,9,7,0.6); color: #F3EDE3; font-family: inherit; font-size: 15px"></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><label for="a-email" style="font-size: 14px; color: #CFC6B8">Work email</label><input id="a-email" type="email" placeholder="jane@company.com" style="min-height: 48px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(243,237,227,0.18); background: rgba(10,9,7,0.6); color: #F3EDE3; font-family: inherit; font-size: 15px"></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><label for="a-site" style="font-size: 14px; color: #CFC6B8">Company website or LinkedIn</label><input id="a-site" type="url" placeholder="https://" style="min-height: 48px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(243,237,227,0.18); background: rgba(10,9,7,0.6); color: #F3EDE3; font-family: inherit; font-size: 15px"></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><label for="a-assets" style="font-size: 14px; color: #CFC6B8">Logo &amp; assets link (Drive, Dropbox)</label><input id="a-assets" type="url" placeholder="https://" style="min-height: 48px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(243,237,227,0.18); background: rgba(10,9,7,0.6); color: #F3EDE3; font-family: inherit; font-size: 15px"></div>
+</div>
+<button type="button" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 0; background: linear-gradient(180deg, #E8CC97, #C9A266); color: #1A140B; font-family: inherit; font-weight: 600; font-size: 16px; cursor: pointer; box-shadow: 0 0 0 1px rgba(255,236,200,0.35) inset, 0 12px 40px -8px rgba(217,183,126,0.65), 0 0 60px rgba(217,183,126,0.25)">Send brief
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></button>
+</div>
+
+<div style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 22px; padding: clamp(24px, 3vw, 36px); border-radius: 24px; border: 1px solid rgba(232,206,160,0.12)">
+<span style="font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; color: #D9B77E">What happens next</span>
+<div style="display: flex; gap: 14px"><span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 30px; line-height: 1; color: #E6C892">1</span><span style="color: #CFC6B8; font-size: 16px; line-height: 1.55">We reply within [24 hours] with a few questions.</span></div>
+<div style="display: flex; gap: 14px"><span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 30px; line-height: 1; color: #E6C892">2</span><span style="color: #CFC6B8; font-size: 16px; line-height: 1.55">A 30-minute call to find the story.</span></div>
+<div style="display: flex; gap: 14px"><span style="font-family: 'Instrument Serif', Georgia, serif; font-size: 30px; line-height: 1; color: #E6C892">3</span><span style="color: #CFC6B8; font-size: 16px; line-height: 1.55">You get an approach, a timeline and a quote.</span></div>
+<div style="margin-top: auto; padding-top: 18px; border-top: 1px solid rgba(232,206,160,0.12); color: #8F877A; font-size: 14px; line-height: 1.6">Prefer to talk first? <a href="#brief">Book a call</a></div>
+</div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div style="position: relative; border-top: 1px solid rgba(232,206,160,0.1); padding: 80px 0 48px">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-direction: column; gap: 36px; position: relative">
+<div style="font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(96px, 19vw, 280px); line-height: 0.82; letter-spacing: -0.03em; background: linear-gradient(180deg, rgba(243,226,190,0.95) 8%, rgba(217,183,126,0.0) 92%); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 0 40px rgba(217,183,126,0.25)); padding-bottom: 0.04em">Luxfable</div>
+<sc-if value="{{showZones}}" hint-placeholder-val="{{ true }}">
+<div style="align-self: flex-start; padding: 7px 12px; border-radius: 999px; border: 1px dashed rgba(217,183,126,0.5); font-family: 'Geist Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #E6C892">3D · extruded logo that catches the light (after we design the logo)</div>
+</sc-if>
+<div style="display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #A79F92">
+<div style="display: flex; gap: 28px; flex-wrap: wrap"><a href="#top" style="color: #CFC6B8; text-decoration: none">LinkedIn</a><a href="#top" style="color: #CFC6B8; text-decoration: none">Instagram</a><a href="#top" style="color: #CFC6B8; text-decoration: none">YouTube</a><a href="#brief" style="color: #CFC6B8; text-decoration: none">[hello@yourstudio.com]</a></div>
+<span>© 2026 · Studio name to be decided</span>
+</div>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"showZones":{"editor":"boolean","default":true},"$preview":{"width":1440,"height":6000}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { fmt: '4:5', who: 'Startup', need: 'Product video', content: 'I have an idea' };
+  }
+  renderVals() {
+    const s = this.state || {};
+    const fmt = s.fmt || '4:5';
+    const mk = (key, labels) => labels.map((label) => ({
+      label: label,
+      on: s[key] === label,
+      off: s[key] !== label,
+      pick: () => this.setState({ [key]: label })
+    }));
+    const formats = ['16:9', '1:1', '4:5', '9:16'].map((f) => ({
+      label: f,
+      on: fmt === f,
+      off: fmt !== f,
+      pick: () => this.setState({ fmt: f })
+    }));
+    return {
+      showZones: this.props.showZones ?? true,
+      formats: formats,
+      f169: fmt === '16:9',
+      f11: fmt === '1:1',
+      f45: fmt === '4:5',
+      f916: fmt === '9:16',
+      feed: fmt !== '9:16',
+      who: mk('who', ['Startup', 'Company', 'Founder / CEO', 'Agency']),
+      need: mk('need', ['Product video', 'Founder film', 'LinkedIn series', '3D website', 'Not sure yet']),
+      content: mk('content', ['I have a script', 'I have an idea', 'Research & ideas (Content Lab)'])
+    };
+  }
+}
+</script>
+</body>
+</html>

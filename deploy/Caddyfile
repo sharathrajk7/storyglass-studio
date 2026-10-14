@@ -1,0 +1,29 @@
+{
+	admin off
+	auto_https off
+}
+
+:{$PORT:8080} {
+	root * /srv
+	encode zstd gzip
+
+	# HTTPS is issued by Railway's edge; send plain-http visitors and www to the one secure address
+	@insecure header X-Forwarded-Proto http
+	redir @insecure https://{host}{uri} permanent
+	@www host www.storyglass.studio
+	redir @www https://storyglass.studio{uri} permanent
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
+	}
+	# the page and the film list change often; media is cached for a week
+	@fresh path / /index.html /films.json
+	header @fresh Cache-Control "no-cache"
+	header /media/* Cache-Control "public, max-age=604800"
+
+	file_server
+}

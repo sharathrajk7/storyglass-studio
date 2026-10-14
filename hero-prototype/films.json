@@ -1,0 +1,41 @@
+{
+  "about": "The studio's films. The first four sit on the crystal (front, then each turn); the index lists every film. To add one: run tools/make_loop.sh to make its loop and poster, add an entry here, and paste the full-film link (Gumlet MP4 or .m3u8) into 'full'. To remove one, delete its entry. Order = order on the crystal.",
+  "films": [
+    {
+      "id": "jev",
+      "title": "Jev vs Laya",
+      "type": "Product comparison",
+      "length": "1:53",
+      "loop": "media/jev.mp4",
+      "poster": "media/jev.jpg",
+      "full": "media/full/jev.mp4"
+    },
+    {
+      "id": "sup",
+      "title": "Superintelligence",
+      "type": "Thought leadership",
+      "length": "1:51",
+      "loop": "media/sup.mp4",
+      "poster": "media/sup.jpg",
+      "full": "media/full/sup.mp4"
+    },
+    {
+      "id": "sci",
+      "title": "AI Scientists Warn",
+      "type": "Explainer",
+      "length": "1:56",
+      "loop": "media/sci.mp4",
+      "poster": "media/sci.jpg",
+      "full": "media/full/sci.mp4"
+    },
+    {
+      "id": "pro",
+      "title": "Pro-AI or Anti-AI?",
+      "type": "Opinion short",
+      "length": "0:48",
+      "loop": "media/pro.mp4",
+      "poster": "media/pro.jpg",
+      "full": "media/full/pro.mp4"
+    }
+  ]
+}

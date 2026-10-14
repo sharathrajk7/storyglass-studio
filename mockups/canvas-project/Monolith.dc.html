@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Direction C · Obsidian Prism</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&amp;family=Hanken+Grotesk:wght@300..600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<style>
+body{margin:0;background:#050607}
+a{color:#7FF0E1}a:hover{color:#C9FFF7}
+@keyframes nxSpin{from{transform:rotateX(-12deg) rotateY(0deg)}to{transform:rotateX(-12deg) rotateY(-360deg)}}
+@keyframes nxDrift{0%,100%{transform:translateY(0);opacity:.25}50%{transform:translateY(-26px);opacity:1}}
+@keyframes nxRing{0%,100%{opacity:.55}50%{opacity:1}}
+@media (max-width: 760px){.nx-prism-wrap{transform:scale(.6)}}
+</style>
+</helmet>
+<div style="background: #050607; color: #ECEAE4; font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif; overflow: hidden; position: relative">
+
+<!-- NAV -->
+<div style="max-width: 1360px; margin: 0 auto; padding: 30px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; position: relative; z-index: 6">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #ECEAE4">
+<span style="width: 8px; height: 8px; border-radius: 50%; background: #4FE3D0; box-shadow: 0 0 14px 3px rgba(79,227,208,0.75)"></span>
+<span style="font-size: 15px; font-weight: 500; letter-spacing: 0.42em; text-transform: uppercase">Noctiluca</span>
+</a>
+<div style="display: flex; align-items: center; gap: 34px; flex-wrap: wrap; font-size: 15px">
+<a href="#work" style="color: #B8BBB9; text-decoration: none">Index</a>
+<a href="#services" style="color: #B8BBB9; text-decoration: none">Services</a>
+<a href="#brief" style="color: #B8BBB9; text-decoration: none">Studio</a>
+<a href="#brief" style="display: inline-flex; align-items: center; gap: 10px; min-height: 44px; color: #ECEAE4; text-decoration: none; border-bottom: 1px solid rgba(79,227,208,0.7)">Start a brief<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4FE3D0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M9 7h8v8"></path></svg></a>
+</div>
+</div>
+
+<!-- HERO -->
+<div id="top" style="position: relative; min-height: 820px">
+<div style="max-width: 1360px; margin: 0 auto; padding: 40px clamp(20px, 4vw, 56px) 0; box-sizing: border-box; position: relative">
+<div style="font-size: clamp(20px, 2.2vw, 28px); font-weight: 300; letter-spacing: -0.01em; color: #ECEAE4; position: relative; z-index: 3">Videos that make your company</div>
+<div style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-weight: 400; font-size: clamp(110px, 18.5vw, 290px); line-height: 0.86; letter-spacing: -0.035em; margin-top: 8px; background: linear-gradient(180deg, #ECEAE4 6%, rgba(236,234,228,0.04) 88%); -webkit-background-clip: text; background-clip: text; color: transparent; padding-right: 0.06em; position: relative; z-index: 1">make sense.</div>
+
+<div style="position: absolute; left: 0; right: 0; top: 0; height: 640px; z-index: 2; pointer-events: none">
+<div style="position: absolute; left: 6%; top: 12%; width: 4px; height: 4px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 10px 2px rgba(79,227,208,0.9); animation: nxDrift 6s ease-in-out infinite"></div>
+<div style="position: absolute; left: 22%; top: 70%; width: 3px; height: 3px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 8px 2px rgba(79,227,208,0.9); animation: nxDrift 7.5s ease-in-out infinite; animation-delay: -2s"></div>
+<div style="position: absolute; left: 41%; top: 18%; width: 3px; height: 3px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 8px 2px rgba(79,227,208,0.9); animation: nxDrift 5.5s ease-in-out infinite; animation-delay: -1s"></div>
+<div style="position: absolute; left: 88%; top: 26%; width: 4px; height: 4px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 10px 2px rgba(79,227,208,0.9); animation: nxDrift 8s ease-in-out infinite; animation-delay: -3s"></div>
+<div style="position: absolute; left: 94%; top: 74%; width: 3px; height: 3px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 8px 2px rgba(79,227,208,0.9); animation: nxDrift 6.5s ease-in-out infinite; animation-delay: -4s"></div>
+<div style="position: absolute; left: 57%; top: 88%; width: 3px; height: 3px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 8px 2px rgba(79,227,208,0.9); animation: nxDrift 7s ease-in-out infinite; animation-delay: -5s"></div>
+<div style="position: absolute; left: 33%; top: 44%; width: 2px; height: 2px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 6px 2px rgba(79,227,208,0.9); animation: nxDrift 9s ease-in-out infinite; animation-delay: -6s"></div>
+<div style="position: absolute; left: 76%; top: 8%; width: 2px; height: 2px; border-radius: 50%; background: #7FF0E1; box-shadow: 0 0 6px 2px rgba(79,227,208,0.9); animation: nxDrift 6s ease-in-out infinite; animation-delay: -2.5s"></div>
+</div>
+
+<!-- 3D PRISM -->
+<div style="position: absolute; right: clamp(0px, 4vw, 60px); top: 150px; width: 560px; max-width: 100%; height: 520px; z-index: 4">
+<div class="nx-prism-wrap" style="position: absolute; inset: 0; perspective: 1400px; perspective-origin: 50% 30%">
+<div style="position: absolute; left: 50%; top: 82%; width: 520px; height: 520px; margin-left: -260px; margin-top: -260px; border-radius: 50%; border: 1px solid rgba(79,227,208,0.55); box-shadow: 0 0 50px rgba(79,227,208,0.35), inset 0 0 50px rgba(79,227,208,0.22); transform: rotateX(80deg); animation: nxRing 4s ease-in-out infinite"></div>
+<div style="position: absolute; left: 50%; top: 82%; width: 360px; height: 120px; margin-left: -180px; margin-top: -60px; border-radius: 50%; background: radial-gradient(ellipse, rgba(79,227,208,0.35), rgba(79,227,208,0) 70%); filter: blur(12px)"></div>
+<div style="position: absolute; left: 50%; top: 40%; width: 400px; height: 225px; margin-left: -200px; margin-top: -112px; transform-style: preserve-3d; animation: nxSpin 24s linear infinite">
+<div style="position: absolute; inset: 0; transform: rotateY(0deg) translateZ(200px); backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 1px solid rgba(79,227,208,0.6); box-shadow: 0 0 40px rgba(79,227,208,0.3); overflow: hidden; background: #000"><img src="/_blob/5ccf0f3d42017b139e3df8c55c247f17" alt="Jev vs Laya" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="position: absolute; inset: 0; transform: rotateY(90deg) translateZ(200px); backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 1px solid rgba(79,227,208,0.6); box-shadow: 0 0 40px rgba(79,227,208,0.3); overflow: hidden; background: #000"><img src="/_blob/2186b2e130dc7afcc6f467e5df4c08c2" alt="Superintelligence" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="position: absolute; inset: 0; transform: rotateY(180deg) translateZ(200px); backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 1px solid rgba(79,227,208,0.6); box-shadow: 0 0 40px rgba(79,227,208,0.3); overflow: hidden; background: #000"><img src="/_blob/20c046e14c34ee37bbb71edd5c83e4fb" alt="AI Scientists Warn" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="position: absolute; inset: 0; transform: rotateY(270deg) translateZ(200px); backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 1px solid rgba(79,227,208,0.6); box-shadow: 0 0 40px rgba(79,227,208,0.3); overflow: hidden; background: #000"><img src="/_blob/2b23a14b304082653c7716141d61d4ac" alt="Pro-AI or Anti-AI" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="position: absolute; left: 0; top: 50%; width: 400px; height: 400px; margin-top: -200px; transform: rotateX(90deg) translateZ(112px); background: linear-gradient(135deg, rgba(79,227,208,0.12), rgba(5,6,7,0.95)); border: 1px solid rgba(79,227,208,0.45)"></div>
+</div>
+</div>
+<sc-if value="{{showZones}}" hint-placeholder-val="{{ true }}">
+<div style="position: absolute; inset: 0; border: 1px dashed rgba(79,227,208,0.45); border-radius: 6px; pointer-events: none"></div>
+<div style="position: absolute; left: 16px; top: -16px; padding: 7px 12px; background: #050607; border: 1px solid rgba(79,227,208,0.55); font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7FF0E1">3D · one glass prism, a video on each face · turns as you scroll</div>
+</sc-if>
+</div>
+
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; flex-wrap: wrap; margin-top: 56px; position: relative; z-index: 5">
+<div style="display: flex; flex-direction: column; gap: 26px; max-width: 470px">
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #A9ADAB; text-wrap: pretty">Story-led motion videos for founders, startups and brands — scripted, designed and animated for the feed, the launch and the pitch.</p>
+<div style="display: flex; gap: 14px; flex-wrap: wrap; align-items: center">
+<a href="#brief" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 30px; background: #ECEAE4; color: #050607; text-decoration: none; font-weight: 600; font-size: 15px; letter-spacing: 0.02em; box-shadow: 0 0 0 1px rgba(79,227,208,0.4), 0 0 44px rgba(79,227,208,0.35)">Start a brief</a>
+<a href="#work" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 6px; color: #ECEAE4; text-decoration: none; font-size: 15px; border-bottom: 1px solid rgba(236,234,228,0.3)">See the index</a>
+</div>
+<div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: #8E9496">04 films · 2026 · [YOUR CITY] / worldwide</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- WORK INDEX -->
+<div id="work" style="max-width: 1360px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap">
+<h2 style="margin: 0; font-weight: 300; font-size: clamp(40px, 5vw, 72px); line-height: 1.02; letter-spacing: -0.035em">Hard ideas, <em style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-weight: 400; color: #ECEAE4; text-shadow: 0 0 30px rgba(79,227,208,0.45)">made obvious.</em></h2>
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: #8E9496">Index — 04</span>
+</div>
+<div style="display: flex; flex-direction: column; border-top: 1px solid rgba(236,234,228,0.14)">
+<a href="#work" style="display: flex; align-items: center; gap: clamp(16px, 3vw, 40px); flex-wrap: wrap; padding: 26px 0; border-bottom: 1px solid rgba(236,234,228,0.14); text-decoration: none; color: inherit; position: relative">
+<span style="position: absolute; left: -24px; right: -24px; top: 0; bottom: 0; background: linear-gradient(90deg, rgba(79,227,208,0.07), rgba(79,227,208,0)); pointer-events: none"></span>
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #4FE3D0; width: 36px">01</span>
+<span style="flex: 1 1 320px; font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: clamp(34px, 4vw, 56px); line-height: 1; text-shadow: 0 0 26px rgba(79,227,208,0.35)">Jev vs Laya</span>
+<span style="flex: 0 1 220px; color: #A9ADAB; font-size: 15px">Product comparison</span>
+<span style="flex: 0 0 60px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #A9ADAB">1:53</span>
+<span style="flex: 0 0 240px; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid rgba(79,227,208,0.55); box-shadow: 0 0 36px rgba(79,227,208,0.3)"><img src="/_blob/0fe5226e708dcd00b88292658f473e1b" alt="Jev vs Laya — Jev is like taking an Uber" style="width: 100%; height: 100%; object-fit: cover; display: block"></span>
+</a>
+<a href="#work" style="display: flex; align-items: center; gap: clamp(16px, 3vw, 40px); flex-wrap: wrap; padding: 26px 0; border-bottom: 1px solid rgba(236,234,228,0.14); text-decoration: none; color: inherit">
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8E9496; width: 36px">02</span>
+<span style="flex: 1 1 320px; font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: clamp(34px, 4vw, 56px); line-height: 1">Superintelligence</span>
+<span style="flex: 0 1 220px; color: #A9ADAB; font-size: 15px">Thought leadership</span>
+<span style="flex: 0 0 60px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #A9ADAB">1:51</span>
+<span style="flex: 0 0 240px; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid rgba(236,234,228,0.16); opacity: 0.8"><img src="/_blob/3ed11c20d4692a8d8da7ad56ae676b43" alt="Superintelligence — the sandbox" style="width: 100%; height: 100%; object-fit: cover; display: block"></span>
+</a>
+<a href="#work" style="display: flex; align-items: center; gap: clamp(16px, 3vw, 40px); flex-wrap: wrap; padding: 26px 0; border-bottom: 1px solid rgba(236,234,228,0.14); text-decoration: none; color: inherit">
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8E9496; width: 36px">03</span>
+<span style="flex: 1 1 320px; font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: clamp(34px, 4vw, 56px); line-height: 1">AI Scientists Warn</span>
+<span style="flex: 0 1 220px; color: #A9ADAB; font-size: 15px">Explainer</span>
+<span style="flex: 0 0 60px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #A9ADAB">1:56</span>
+<span style="flex: 0 0 240px; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid rgba(236,234,228,0.16); opacity: 0.8"><img src="/_blob/e9bd303853ec7e3b68cb43952272bd7c" alt="AI Scientists Warn — draw a hard line" style="width: 100%; height: 100%; object-fit: cover; display: block"></span>
+</a>
+<a href="#work" style="display: flex; align-items: center; gap: clamp(16px, 3vw, 40px); flex-wrap: wrap; padding: 26px 0; border-bottom: 1px solid rgba(236,234,228,0.14); text-decoration: none; color: inherit">
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #8E9496; width: 36px">04</span>
+<span style="flex: 1 1 320px; font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: clamp(34px, 4vw, 56px); line-height: 1">Pro-AI or Anti-AI?</span>
+<span style="flex: 0 1 220px; color: #A9ADAB; font-size: 15px">Opinion short</span>
+<span style="flex: 0 0 60px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #A9ADAB">0:48</span>
+<span style="flex: 0 0 240px; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid rgba(236,234,228,0.16); opacity: 0.8"><img src="/_blob/5095ac7c27113b37946751497d27c89d" alt="Pro-AI or Anti-AI" style="width: 100%; height: 100%; object-fit: cover; display: block"></span>
+</a>
+</div>
+<sc-if value="{{showZones}}" hint-placeholder-val="{{ true }}">
+<div style="align-self: flex-start; padding: 7px 12px; border: 1px dashed rgba(79,227,208,0.55); font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7FF0E1">3D · hovering a row turns the prism to that film</div>
+</sc-if>
+</div>
+
+<!-- SERVICES -->
+<div id="services" style="max-width: 1360px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 56px; border-top: 1px solid rgba(236,234,228,0.1)">
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 22px">
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: #8E9496">What we make</span>
+<h2 style="margin: 0; font-weight: 300; font-size: clamp(40px, 5vw, 72px); line-height: 1.02; letter-spacing: -0.035em">One studio. <em style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-weight: 400; text-shadow: 0 0 30px rgba(79,227,208,0.45)">Every format</em> you post.</h2>
+</div>
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column">
+<div style="display: flex; gap: 28px; padding: 28px 0; border-top: 1px solid rgba(236,234,228,0.14)"><span style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: 54px; line-height: 0.9; width: 70px; background: linear-gradient(180deg, #ECEAE4, rgba(236,234,228,0.05)); -webkit-background-clip: text; background-clip: text; color: transparent">i</span><div style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 24px; font-weight: 500; letter-spacing: -0.02em">Founder &amp; CEO films</span><span style="color: #A9ADAB; font-size: 16px; line-height: 1.6">You on camera, with motion graphics that carry the point.</span></div></div>
+<div style="display: flex; gap: 28px; padding: 28px 0; border-top: 1px solid rgba(236,234,228,0.14)"><span style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: 54px; line-height: 0.9; width: 70px; background: linear-gradient(180deg, #ECEAE4, rgba(236,234,228,0.05)); -webkit-background-clip: text; background-clip: text; color: transparent">ii</span><div style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 24px; font-weight: 500; letter-spacing: -0.02em">Product explainers</span><span style="color: #A9ADAB; font-size: 16px; line-height: 1.6">Launches and feature stories — your real screens, animated in context.</span></div></div>
+<div style="display: flex; gap: 28px; padding: 28px 0; border-top: 1px solid rgba(236,234,228,0.14)"><span style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: 54px; line-height: 0.9; width: 70px; background: linear-gradient(180deg, #ECEAE4, rgba(236,234,228,0.05)); -webkit-background-clip: text; background-clip: text; color: transparent">iii</span><div style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 24px; font-weight: 500; letter-spacing: -0.02em">LinkedIn series</span><span style="color: #A9ADAB; font-size: 16px; line-height: 1.6">A steady run of posts on one story system — unmistakably yours.</span></div></div>
+<div style="display: flex; gap: 28px; padding: 28px 0; border-top: 1px solid rgba(236,234,228,0.14); border-bottom: 1px solid rgba(236,234,228,0.14)"><span style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: 54px; line-height: 0.9; width: 70px; background: linear-gradient(180deg, #ECEAE4, rgba(236,234,228,0.05)); -webkit-background-clip: text; background-clip: text; color: transparent">iv</span><div style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 24px; font-weight: 500; letter-spacing: -0.02em">3D websites</span><span style="color: #A9ADAB; font-size: 16px; line-height: 1.6">Cinematic, scroll-driven sites — your product as a world to explore.</span></div></div>
+<div style="margin-top: 32px; display: flex; flex-direction: column; gap: 14px; padding: 30px 32px; border: 1px solid rgba(79,227,208,0.5); box-shadow: 0 0 60px rgba(79,227,208,0.12), inset 0 0 40px rgba(79,227,208,0.06)">
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: #7FF0E1">Content Lab</span>
+<span style="font-size: 20px; line-height: 1.5">Not sure what to say yet? We research your market, competitors and audience — then pitch the ideas and write the scripts.</span>
+<a href="#brief" style="align-self: flex-start; display: inline-flex; align-items: center; min-height: 44px; color: #ECEAE4; text-decoration: none; border-bottom: 1px solid rgba(79,227,208,0.7)">Ask about Content Lab</a>
+</div>
+</div>
+</div>
+
+<!-- BRIEF -->
+<div id="brief" style="max-width: 1360px; margin: 0 auto; padding: 120px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 56px; border-top: 1px solid rgba(236,234,228,0.1)">
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 22px">
+<span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: #8E9496">Start a brief</span>
+<h2 style="margin: 0; font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-weight: 400; font-size: clamp(44px, 5.6vw, 84px); line-height: 0.98; letter-spacing: -0.03em; text-shadow: 0 0 30px rgba(79,227,208,0.3)">Tell us the story you need told.</h2>
+<p style="margin: 0; color: #A9ADAB; font-size: 17px; line-height: 1.6">Takes two minutes. We come back with an approach and a quote.</p>
+</div>
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 34px">
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #8E9496">01 — You are</span>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<sc-for list="{{who}}" as="c" hint-placeholder-count="4">
+<sc-if value="{{c.on}}" hint-placeholder-val="{{ false }}"><button type="button" onClick="{{c.pick}}" style="min-height: 46px; padding: 0 20px; border-radius: 2px; border: 1px solid #4FE3D0; background: rgba(79,227,208,0.1); color: #ECEAE4; font-family: inherit; font-size: 15px; cursor: pointer; box-shadow: 0 0 22px rgba(79,227,208,0.3)">{{c.label}}</button></sc-if>
+<sc-if value="{{c.off}}" hint-placeholder-val="{{ true }}"><button type="button" onClick="{{c.pick}}" style="min-height: 46px; padding: 0 20px; border-radius: 2px; border: 1px solid rgba(236,234,228,0.2); background: rgba(0,0,0,0); color: #B8BBB9; font-family: inherit; font-size: 15px; cursor: pointer">{{c.label}}</button></sc-if>
+</sc-for></div></div>
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #8E9496">02 — You need</span>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<sc-for list="{{need}}" as="c" hint-placeholder-count="5">
+<sc-if value="{{c.on}}" hint-placeholder-val="{{ false }}"><button type="button" onClick="{{c.pick}}" style="min-height: 46px; padding: 0 20px; border-radius: 2px; border: 1px solid #4FE3D0; background: rgba(79,227,208,0.1); color: #ECEAE4; font-family: inherit; font-size: 15px; cursor: pointer; box-shadow: 0 0 22px rgba(79,227,208,0.3)">{{c.label}}</button></sc-if>
+<sc-if value="{{c.off}}" hint-placeholder-val="{{ true }}"><button type="button" onClick="{{c.pick}}" style="min-height: 46px; padding: 0 20px; border-radius: 2px; border: 1px solid rgba(236,234,228,0.2); background: rgba(0,0,0,0); color: #B8BBB9; font-family: inherit; font-size: 15px; cursor: pointer">{{c.label}}</button></sc-if>
+</sc-for></div></div>
+<div style="display: flex; flex-direction: column; gap: 14px"><span style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #8E9496">03 — Your content</span>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<sc-for list="{{content}}" as="c" hint-placeholder-count="3">
+<sc-if value="{{c.on}}" hint-placeholder-val="{{ false }}"><button type="button" onClick="{{c.pick}}" style="min-height: 46px; padding: 0 20px; border-radius: 2px; border: 1px solid #4FE3D0; background: rgba(79,227,208,0.1); color: #ECEAE4; font-family: inherit; font-size: 15px; cursor: pointer; box-shadow: 0 0 22px rgba(79,227,208,0.3)">{{c.label}}</button></sc-if>
+<sc-if value="{{c.off}}" hint-placeholder-val="{{ true }}"><button type="button" onClick="{{c.pick}}" style="min-height: 46px; padding: 0 20px; border-radius: 2px; border: 1px solid rgba(236,234,228,0.2); background: rgba(0,0,0,0); color: #B8BBB9; font-family: inherit; font-size: 15px; cursor: pointer">{{c.label}}</button></sc-if>
+</sc-for></div></div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 6px"><label for="c-name" style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #8E9496">Name</label><input id="c-name" type="text" placeholder="Jane Founder" style="min-height: 48px; padding: 0; border: 0; border-bottom: 1px solid rgba(236,234,228,0.3); background: rgba(0,0,0,0); color: #ECEAE4; font-family: inherit; font-size: 18px"></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label for="c-email" style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #8E9496">Work email</label><input id="c-email" type="email" placeholder="jane@company.com" style="min-height: 48px; padding: 0; border: 0; border-bottom: 1px solid rgba(236,234,228,0.3); background: rgba(0,0,0,0); color: #ECEAE4; font-family: inherit; font-size: 18px"></div>
+</div>
+<button type="button" style="align-self: flex-start; min-height: 54px; padding: 0 34px; border: 0; border-radius: 0; background: #ECEAE4; color: #050607; font-family: inherit; font-weight: 600; font-size: 15px; letter-spacing: 0.02em; cursor: pointer; box-shadow: 0 0 0 1px rgba(79,227,208,0.4), 0 0 44px rgba(79,227,208,0.35)">Send brief</button>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div style="position: relative; padding: 70px 0 46px; border-top: 1px solid rgba(236,234,228,0.1)">
+<div style="max-width: 1360px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; flex-direction: column; gap: 30px">
+<div style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: clamp(90px, 18vw, 270px); line-height: 0.85; letter-spacing: -0.04em; background: linear-gradient(180deg, rgba(236,234,228,0.92) 6%, rgba(79,227,208,0.18) 55%, rgba(79,227,208,0) 92%); -webkit-background-clip: text; background-clip: text; color: transparent; padding-right: 0.06em; padding-bottom: 0.04em">noctiluca</div>
+<div style="display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: #8E9496">
+<div style="display: flex; gap: 28px; flex-wrap: wrap"><a href="#top" style="color: #B8BBB9; text-decoration: none">LinkedIn</a><a href="#top" style="color: #B8BBB9; text-decoration: none">Instagram</a><a href="#top" style="color: #B8BBB9; text-decoration: none">YouTube</a><a href="#brief" style="color: #B8BBB9; text-decoration: none">[hello@yourstudio.com]</a></div>
+<span>Named after the sea sparkle that glows at night</span>
+</div>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"showZones":{"editor":"boolean","default":true},"$preview":{"width":1440,"height":4300}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { who: 'Company', need: 'Product video', content: 'I have a script' };
+  }
+  renderVals() {
+    const s = this.state || {};
+    const mk = (key, labels) => labels.map((label) => ({
+      label: label,
+      on: s[key] === label,
+      off: s[key] !== label,
+      pick: () => this.setState({ [key]: label })
+    }));
+    return {
+      showZones: this.props.showZones ?? true,
+      who: mk('who', ['Startup', 'Company', 'Founder / CEO', 'Agency']),
+      need: mk('need', ['Product video', 'Founder film', 'LinkedIn series', '3D website', 'Not sure yet']),
+      content: mk('content', ['I have a script', 'I have an idea', 'Research & ideas (Content Lab)'])
+    };
+  }
+}
+</script>
+</body>
+</html>
